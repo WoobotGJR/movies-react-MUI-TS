@@ -1,30 +1,36 @@
-# React + TypeScript + Vite
+<h1 align="center">Учебный проект: "movies-react"</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<a name="summary">
+  <details>
+    <summary>Оглавление</summary>
+    <ol>
+      <li><a href="#project-description">Описание проекта</a></li>
+      <li><a href="#project-installation">Эксплуатация проекта</a></li>
+      <li><a href="#project-functionality">Функциональность проекта</a></li>
+      <li><a href="#project-enhancement">Планы по улучшению</a></li>
+    </ol>
+  </details>
+</a>
 
-Currently, two official plugins are available:
+<a name="project-description"><h2>1. Описание проекта</h2></a>
+Данный проект - приложение, в котором можно просматривать карточки фильмов.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<a name="project-installation"><h2>2. Эксплуатация проекта</h2></a>
 
-## Expanding the ESLint configuration
+1. git clone https://github.com/WoobotGJR/movies-react-MUI-TS - клонировать репозиторий
+2. npm i - установить зависимости (dependencies)
+3. npm run start - запустить приложение
+4. npm run build - создать build приложения
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<a name="functionality"><h2>3. Функциональность проекта</h2></a>
 
-- Configure the top-level `parserOptions` property like this:
+- Просмотр карточек фильмов
+- Поиск фильмов
+- Добавление фильмов в любимые
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+<a name="enhancement"><h2>4. Планы по улучшению</h2></a>
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Возможность просмотра трейлеров
+- Создание своего API
+- Оптимизация приложения
+- Улучшение UI
